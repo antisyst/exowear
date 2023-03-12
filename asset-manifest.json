@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/exowear/static/css/main.65acd440.css",
+    "main.js": "/exowear/static/js/main.2dfd12d5.js",
+    "static/js/787.796556a0.chunk.js": "/exowear/static/js/787.796556a0.chunk.js",
+    "service-worker.js": "/exowear/service-worker.js",
+    "static/media/Author-Semibold.otf": "/exowear/static/media/Author-Semibold.c994278cf5ee5d8154bf.otf",
+    "static/media/Author-Medium.otf": "/exowear/static/media/Author-Medium.310632ea7eb788240e2e.otf",
+    "static/media/Author-Regular.otf": "/exowear/static/media/Author-Regular.05ee89e3b8922ca5bfe9.otf",
+    "static/media/Author-Bold.otf": "/exowear/static/media/Author-Bold.e29a791a9419029a6d05.otf",
+    "static/media/Outfit-ExtraBold.otf": "/exowear/static/media/Outfit-ExtraBold.9a680b7cd51eb852fedc.otf",
+    "static/media/Outfit-SemiBold.otf": "/exowear/static/media/Outfit-SemiBold.d8a989d1da3be63af085.otf",
+    "static/media/Outfit-Bold.otf": "/exowear/static/media/Outfit-Bold.50aa90e058e60ecaa8d8.otf",
+    "static/media/Outfit-Thin.otf": "/exowear/static/media/Outfit-Thin.821024f7c70320a12b7d.otf",
+    "static/media/Outfit-Black.otf": "/exowear/static/media/Outfit-Black.b469a262864ff9f4c26a.otf",
+    "static/media/Outfit-Medium.otf": "/exowear/static/media/Outfit-Medium.aa5451e14dfb01487a6e.otf",
+    "index.html": "/exowear/index.html",
+    "main.65acd440.css.map": "/exowear/static/css/main.65acd440.css.map",
+    "main.2dfd12d5.js.map": "/exowear/static/js/main.2dfd12d5.js.map",
+    "787.796556a0.chunk.js.map": "/exowear/static/js/787.796556a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65acd440.css",
+    "static/js/main.2dfd12d5.js"
+  ]
+}
