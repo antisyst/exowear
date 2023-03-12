@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;600&family=DM+Sans:wght@400;500;700&family=Gemunu+Libre&family=Josefin+Sans&family=Jost:wght@500&family=Lexend:wght@400;500;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR&family=Oxygen&family=Plus+Jakarta+Sans:wght@800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Prompt&family=Questrial&family=Quicksand:wght@600&family=Roboto+Slab:wght@400;500&family=Tilt+Warp&family=Titillium+Web&display=swap');
+
+.user-s-no {
+    user-select: none;
+}
+.text-dec-no {
+    text-decoration: none;
+}
+
+// COLORS ROOT
+:root {
+    --var-color-component-prototype-element-black: #000;
+    --var-color-component-prototype-element-white: #ffff;
+    --var-color-component-prototype-element-primary: #121212;
+    --var-color-component-prototype-element-third: #ddd;
+    --var-color-component-prototype-element-red: #ff0000;
+}
+// THE END COLORS ROOT
+
+    // COLOR CLASSES
+    .color-black {
+        color: var(--var-color-component-prototype-element-black);
+    }
+    .color-white {
+        color: var(--var-color-component-prototype-element-white);
+    }
+    .color-primary {
+        color: var(--var-color-component-prototype-element-primary);
+    }
+    .color-third {
+        color: var(--var-color-component-prototype-element-third);
+    }
+    .color-red {
+        color: var(--var-color-component-prototype-element-red);
+    }
+    // THE END COLOR CLASSES
+
+    // FONTS
+
+@font-face {
+    font-family: Author-Font-Family-UI-component-prototype-bold-target ;
+    src: url(./fonts/Author_Complete/Author_Complete/Fonts/OTF/Author-Bold.otf);
+}
+
+@font-face {
+    font-family: Author-Font-Family-UI-component-prototype-semibold-target ;
+    src: url(./fonts/Author_Complete/Author_Complete/Fonts/OTF/Author-Semibold.otf);
+}
+@font-face {
+    font-family: Author-Font-Family-UI-component-prototype-medium-target ;
+    src: url(./fonts/Author_Complete/Author_Complete/Fonts/OTF/Author-Medium.otf);
+}
+@font-face {
+    font-family: Author-Font-Family-UI-component-prototype-regular-target ;
+    src: url(./fonts/Author_Complete/Author_Complete/Fonts/OTF/Author-Regular.otf);
+}
+@font-face {
+    font-family: Outfit-Font-Family-UI-component-prototype-black-target ;
+    src: url(./fonts/Outfit_Complete/Outfit_Complete/Fonts/OTF/Outfit-Black.otf);
+}
+@font-face {
+    font-family: Outfit-Font-Family-UI-component-prototype-bold-target ;
+    src: url(./fonts/Outfit_Complete/Outfit_Complete/Fonts/OTF/Outfit-Bold.otf);
+}
+@font-face {
+    font-family: Outfit-Font-Family-UI-component-prototype-extrabold-target ;
+    src: url(./fonts/Outfit_Complete/Outfit_Complete/Fonts/OTF/Outfit-ExtraBold.otf);
+}
+@font-face {
+    font-family: Outfit-Font-Family-UI-component-prototype-medium-target ;
+    src: url(./fonts/Outfit_Complete/Outfit_Complete/Fonts/OTF/Outfit-Medium.otf);
+}
+@font-face {
+    font-family: Outfit-Font-Family-UI-component-prototype-semibold-target ;
+    src: url(./fonts/Outfit_Complete/Outfit_Complete/Fonts/OTF/Outfit-SemiBold.otf);
+}
+@font-face {
+    font-family: Outfit-Font-Family-UI-component-prototype-thin-target ;
+    src: url(./fonts/Outfit_Complete/Outfit_Complete/Fonts/OTF/Outfit-Thin.otf);
+}
+
+    // FONT CLASSES
+
+.font-weight-bold {
+    font-weight: bold;
+}
+.font-weight-normal {
+    font-weight: normal;
+}
+.font-lexend {
+    font-family: 'Lexend', sans-serif;
+}
+.font-tilt-warp {
+    font-family: 'Tilt Warp', cursive;
+}
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.font-dm-sans {
+    font-family: 'DM Sans', sans-serif;
+}
+.font-chakra-petch {
+    font-family: 'Chakra Petch', sans-serif;
+}
+.font-author-bold {
+    font-family: Author-Font-Family-UI-component-prototype-bold-target ;
+}
+.font-author-semibold {
+    font-family: Author-Font-Family-UI-component-prototype-semibold-target ;
+}
+.font-author-medium {
+    font-family: Author-Font-Family-UI-component-prototype-medium-target ;
+}
+.font-author-regular {
+    font-family: Author-Font-Family-UI-component-prototype-regular-target ;
+}
+.font-outfit-normal {
+    font-family: Outfit-Font-Family-UI-component-prototype-black-target ;
+}
+.font-outfit-bold {
+    font-family: Outfit-Font-Family-UI-component-prototype-bold-target ;
+}
+.font-outfit-extrabold {
+    font-family: Outfit-Font-Family-UI-component-prototype-extrabold-target ;
+}
+.font-outfit-medium {
+    font-family: Outfit-Font-Family-UI-component-prototype-medium-target ;
+}
+.font-outfit-semibold {
+    font-family: Outfit-Font-Family-UI-component-prototype-semibold-target ;
+}
+.font-outfit-thin {
+    font-family: Outfit-Font-Family-UI-component-prototype-thin-target ;
+}
+
+// THE END FONTS
+
+// FLEX DIRECTION
+
+.flex {
+    display: flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-wrap-no {
+    flex-wrap: nowrap;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.align-center {
+    align-items: center;
+}
+.align-start {
+    align-items: flex-start;
+}
+
+//  THE END FLEX DIRECTION CLASSES
+
+    // BOX SHADOW CLASSES
+    .box-shadow-first {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .box-shadow-second {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .box-shadow-third {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .box-shadow-prim {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    // THE END BOX SHADOW CLASSES
+
+    // BACKGROUND CLASSES
+    .bg-color-black {
+        background: var(--var-color-component-prototype-element-black);
+    }
+    .bg-color-white {
+        background: var(--var-color-component-prototype-element-white);
+    }
+    .bg-color-primary {
+        background: var(--var-color-component-prototype-element-primary);
+    }
+    .bg-color-third {
+        background: var(--var-color-component-prototype-element-third);
+    }
+    //  THE END BACKGROUND CLASSES

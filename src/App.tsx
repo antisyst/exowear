@@ -1,26 +1,32 @@
+import "./App.css";
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navigation from "./components/navigation/navigation.component";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from "./routes/home";
+import SweatshirtPage from "./routes/sweatshirt";
+import TShirtPage from "./routes/t-shirt";
+import ShortsPage from "./routes/shorts";
+import SocksPage from "./routes/socks";
+import PantsPage from "./routes/pants";
+import SneakersPage from "./routes/sneakers";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigation/>}/>
+        <Route index={true} element={<Home/>}/>
+        <Route path="sweatshirts" element={<SweatshirtPage/>}/>
+        <Route path="socks" element={<SocksPage/>}/>
+        <Route path="pants" element={<PantsPage/>}/>
+        <Route path="t-shirts" element={<TShirtPage/>}/>
+        <Route path="shorts" element={<ShortsPage/>}/>
+        <Route path='sneakers' element={<SneakersPage/>}/>
+      </Routes>
+  </Router>
+  )
 }
 
 export default App;

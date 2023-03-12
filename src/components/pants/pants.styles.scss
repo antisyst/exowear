@@ -1,0 +1,103 @@
+@import url(../../global.scss);
+
+.router-page-showcase-prototype-component-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 6%;
+    justify-content: center;
+    align-items: center;
+}
+.router-page-showcase-prototype-component-container_item {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 7px;
+    transition: all 0.4s ease-out;
+    justify-content: center;
+    width: 28%;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.4s ease-out;
+    align-items: center;
+}
+.router-page-showcase-prototype-component-container_item:hover {
+    border-radius: 0;
+    transition: all 0.4s ease-out;
+}
+.router-page-showcase-prototype-component-container_item h2 {
+    text-align: center;
+}
+.router-page-showcase-prototype-component-container_item h3 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+.router-page-showcase-prototype-component-container_item h4 {
+    font-size: 25px;
+}
+.router-page-showcase-prototype-component-container_item button {
+    border: none;
+    color: (--var-color-component-prototype-element-white);
+    font-size: 30px;
+    margin: 8px 0;
+    padding: 11px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.router-page-showcase-prototype-component-container_item button svg {
+    width: 35px;
+}
+.router-page-showcase-prototype-component-container_item button svg {
+    color: var(--var-color-component-prototype-element-white);
+}
+.router-page-showcase-prototype-component-container_item img {
+    width: 100%;
+    object-fit: contain;
+}
+.router-page-showcase-prototype-component-container_item div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1070px) {
+    .router-page-showcase-prototype-component-container_item {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 7px;
+        transition: all 0.4s ease-out;
+        justify-content: center;
+        width: 47%;
+        cursor: pointer;
+        border-radius: 20px;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .router-page-showcase-prototype-component-container_item {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 7px;
+        transition: all 0.4s ease-out;
+        justify-content: center;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 20px;
+        align-items: center;
+    }
+    .router-page-showcase-prototype-component-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 15px 2%;
+        justify-content: center;
+        align-items: center;
+    }
+}

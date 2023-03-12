@@ -1,0 +1,99 @@
+@import url(../../global.scss);
+
+.import-footer-bottom-prototype-element {
+    text-align: center;
+    padding: 25px;
+}
+.import-footer-bottom-prototype-element-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.import-footer-bottom-prototype-element-container_item-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.import-footer-bottom-prototype-element-container_item-1 p {
+    font-size: 22px;
+    margin-top: 3px;
+}
+.import-footer-bottom-prototype-element-container_item-1 p a {
+    text-decoration: none;
+    color: var(--var-color-component-prototype-element-white);
+}
+.import-footer-bottom-prototype-element-container_item-1 p a:hover {
+    text-decoration: underline;
+}
+.import-footer-bottom-prototype-element-container_item-1 h3 {
+    margin-top: 40px;
+    margin-bottom: 2px;
+    font-size: 23px;
+}
+.import-footer-bottom-prototype-element-container_item-1 svg{
+    width: 230px;
+    margin-right: 60px;
+}
+.import-footer-bottom-prototype-element-container_item-1 h2 svg {
+    font-size: 25px;
+    width: 20px;
+    vertical-align: bottom;
+}
+.import-footer-bottom-prototype-element-container_item-1 h2 {
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.import-footer-bottom-prototype-element-container_item-2 a {
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+    font-size: 50px;
+    margin: 0 15px;
+}
+.import-footer-bottom-prototype-element-container_item-2 svg:hover {
+    transform: scale(1.03);
+    transition: all 0.4s ease-out;
+}
+
+@media only screen and (max-width: 768px) {
+    .import-footer-bottom-prototype-element {
+        text-align: center;
+        padding: 25px;
+    }
+    .import-footer-bottom-prototype-element-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .import-footer-bottom-prototype-element-container_item-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .import-footer-bottom-prototype-element-container_item-1 svg{
+        width: 150px;
+        text-align: center;
+        margin-right: 0;
+    }
+    .import-footer-bottom-prototype-element-container_item-1 h2 {
+        font-size: 27px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .import-footer-bottom-prototype-element-container_item-1 h3 {
+        margin-top: 40px;
+        margin-bottom: 2px;
+        font-size: 20px;
+    }
+    .import-footer-bottom-prototype-element-container_item-2 {
+        margin-top: 5vh;
+    }
+    .import-footer-bottom-prototype-element-container_item-2 a {
+        text-decoration: none;
+        transition: all 0.4s ease-out;
+        font-size: 50px;
+        cursor: none;
+        margin: 0 20px;
+    }
+    
+}
